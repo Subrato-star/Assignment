@@ -1,0 +1,145 @@
+Q1. Write a program to print Hello Students on the screen.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello Students");
+    return 0;
+}
+
+Q2. Write a program to print Hello in the first line and Students in the second line.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello\nStudents");
+    return 0;
+}
+
+Q3. Write a program to print “MySirG” on the screen.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("\"My Sirg\"");
+    return 0;
+}
+
+Q4. WAP to find the area of the circle. Take radius of circle from user as input and print the result in below given format.
+
+	With Decimal Values
+
+	#include <stdio.h>
+
+int main()
+{
+    printf("Area of Circle\n");
+    float a;
+    int r;
+    float pi = 3.14;
+    printf("Enter the radius:- ");
+    scanf("%d",&r);
+    a = pi*r*r;
+    printf("Area of circle is %f having the radius %d",a,r);
+    return 0;
+}
+
+	Without Decimal Values
+
+	#include <stdio.h>
+
+int main()
+{
+    printf("Area of Circle\n");
+    int a;
+    int r;
+    float pi = 3.14;
+    printf("Enter the radius:- ");
+    scanf("%d",&r);
+    a = pi*r*r;
+    printf("Area of circle is %d having the radius %d",a,r);
+    return 0;
+}
+
+Q5. WAP to calculate the length of String using printf function.
+
+Q6. WAP to print the name of the user in double quotes.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("\"Hello, Amit Kumar\"");
+    return 0;
+}
+
+
+Q7. WAP to print “%d” on the screen.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("%%d");
+    return 0;
+}
+
+
+Q8. WAP to print “\n” on the screen.
+
+#include <stdio.h>
+
+int main()
+{
+    printf("\\n");
+    return 0;
+}
+
+
+Q9. WAP to print “\\” on the screen.
+
+Q10. WAP to take date as an input in below given format and convert the date format and display the result
+
+#include <stdio.h>
+
+int main()
+{
+    int date;
+    int month;
+    int year;
+    printf("Enter date of birth:- ");
+    scanf("%d %d %d",&date,&month,&year);
+    printf("%d/%d/%d \n",date,month,year);
+    printf("Day - %d Month - %d Year - %d",date,month,year);
+    return 0;
+}
+
+
+Q11. WAP to take time as an input in below given format and convert the time format and display the result
+
+#include <stdio.h>
+
+int main()
+{
+    int hour;
+    int minute;
+    printf("Enter the time:- ");
+    scanf("%d %d",&hour,&minute);
+    printf("%d:%d \n",hour,minute);
+    printf("%d Hour and %d Minute",hour,minute);
+    return 0;
+}
+
+Q12. Find output of below code:
+
+int main()
+{
+int x = printf(“ineuron”);
+printf(“%d”,x);
+return 0;
+}
+
+Output:- Error
